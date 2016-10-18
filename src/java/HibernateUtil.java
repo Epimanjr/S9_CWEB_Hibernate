@@ -9,7 +9,6 @@ import org.hibernate.cfg.Configuration;
  * object.
  *
  * @author Maxime BLAISE
- * @author Antoine NOSAL
  */
 public class HibernateUtil {
 

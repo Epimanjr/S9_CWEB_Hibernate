@@ -6,7 +6,6 @@ import org.hibernate.Transaction;
 /**
  *
  * @author Maxime BLAISE
- * @author Antoine NOSAL
  */
 public class Main {
 
