@@ -10,6 +10,7 @@ import java.util.Objects;
 /**
  *
  * @author Maxime BLAISE
+ * @author Antoine NOSAL
  */
 public class Abonne {
 
