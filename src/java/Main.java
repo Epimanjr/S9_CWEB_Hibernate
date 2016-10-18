@@ -21,6 +21,23 @@ public class Main {
 
         // Sauvegarde de l'abonné
         session.save(unAbonne);
+        
+        // Modifie l'abonné
+        unAbonne.setMdpAbonne("bliblo");
+        
+        // Détache l'abonné
+        session.evict(unAbonne);
+        
+        // Modifie l'abonnée
+        unAbonne.setMdpAbonne("blublu");
+        
+        // Rattache l'abonné
+        session.merge(unAbonne);
+        session.update(unAbonne);
+        
+        // Affiche l'abonné
+        System.out.println(unAbonne);
+        
         tx.commit();
     }
 }
